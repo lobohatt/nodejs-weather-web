@@ -1,5 +1,5 @@
 
-console.log('client side javascriprt file loaded');
+
 
 /*fetch('http://puzzle.mead.io/puzzle').then((response) => {
   //when data is arrived and going to  parsed
