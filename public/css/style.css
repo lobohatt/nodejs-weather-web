@@ -57,6 +57,11 @@ color: white;
 padding: 8px;
 }
 
+button:hover{
+  background:aqua;
+  color: black;
+}
+
 #message-1{
   font-size: 20px;
   color:paleturquoise
@@ -72,6 +77,8 @@ padding: 8px;
   height: 250px;
   border-radius: 50px;
 }
+
+
 
 .skill{
   white-space: nowrap;
