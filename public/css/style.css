@@ -1,5 +1,5 @@
 body{
-  color:#333333;
+  color:greenyellow;
   font-family: arial;
   max-width: 650px;
   margin: 0 auto;
@@ -8,16 +8,17 @@ body{
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.7)),url(/img/weather.jpg) no-repeat center ;
+  background-size: cover ;
 }
 
 footer {
  
   
- color: palevioletred;
+ color: whitesmoke;
  border-top:1px solid greenyellow;
  margin-top: 16px;
  padding: 16px 0;
-
 }
 
 header{
@@ -38,6 +39,7 @@ header a {
 
 .portrait{
    width: 250px;
+   margin-bottom: 10px;
 }
 .main-content{
   flex-grow: 1;   
@@ -63,4 +65,20 @@ padding: 8px;
 #message-2{
   font-size: 20px;
   color:darkblue ;
+}
+
+.iimg{
+  width: 250px;
+  height: 250px;
+}
+
+.skill{
+  white-space: nowrap;
+}
+.bond{
+   color: lightseagreen;
+} 
+
+.bonds{
+  color: crimson;
 }

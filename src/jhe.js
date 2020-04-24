@@ -23,15 +23,15 @@ hbs.registerPartials(partialPath);
 
 app.get('', (req, res) => {
   res.render('index', {
-    title: 'weather app',
-    name: 'lobo'
+    title: 'Weather app',
+    name: 'Lobo'
   });
 });
 
 app.get('/abt', (req, res) => {
   res.render('abt', {
     title: 'About me',
-    name: 'lobo'
+    name: 'SOURABH NAIDU'
   });
 });
 
@@ -39,7 +39,7 @@ app.get('/hola', (req, res) => {
   res.render('hlp', {
     title: 'Help section  ',
     location: 'india',
-    name: 'lobo'
+    name: 'Lobo'
   });
 });
 
