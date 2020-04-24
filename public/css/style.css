@@ -70,6 +70,7 @@ padding: 8px;
 .iimg{
   width: 250px;
   height: 250px;
+  border-radius: 50px;
 }
 
 .skill{
