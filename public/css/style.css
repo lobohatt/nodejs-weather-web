@@ -79,22 +79,6 @@ button:hover{
   border: 1px solid blue;
 }
 
-.sun{
-  position: absolute;
-  top: 180px;
-  right:250px;
-  font-size: 100px;
-  color:yellow;
-  -moz-animation:spin 1.4s linear infinite;
-  -webkit-animation:spin 1.4s linear infinite;
-  animation:spin 1.4s linear infinite;
-}
-
-@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
-@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
-@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
-
-
 .skill{
   white-space: nowrap;
 }
