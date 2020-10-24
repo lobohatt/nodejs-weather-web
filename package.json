@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node src/jhe.js"
+    "start": "node src/jhe.js",
+    "dev": "nodemon src/jhe.js -e js,hbs"
   },
   "keywords": [],
   "author": "",
@@ -13,5 +14,8 @@
     "express": "^4.17.1",
     "hbs": "^4.1.1",
     "postman-request": "^2.88.1-postman.22"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
   }
 }
